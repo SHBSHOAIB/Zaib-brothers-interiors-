@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gallery | Zaib Brothers Interiors</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header class="header">
+
+    <div class="logo">ZAIB BROTHERS</div>
+
+    <button class="menu-btn" id="menuBtn">☰</button>
+
+    <nav class="navbar">
+
+        <a href="index.html">Home</a>
+
+        <a href="products.html">Products</a>
+
+        <a href="gallery.html" class="active">Gallery</a>
+
+        <a href="services.html">Services</a>
+
+        <a href="about.html">About</a>
+
+        <a href="contact.html">Contact</a>
+
+    </nav>
+
+</header>
+
+
+<!-- ================= PAGE HERO ================= -->
+
+<section class="page-hero">
+
+    <div class="container">
+
+        <h1>Gallery</h1>
+
+        <p>
+            Explore our ceiling designs and project work.
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= GALLERY ================= -->
+
+<section class="section gallery-page">
+
+    <div class="container">
+
+        <div class="gallery-grid">
+
+
+            <!-- ================= COLLEGE 1 ================= -->
+
+            <div class="gallery-item college-card"
+                 onclick="openCollegeGallery('college1')">
+
+                <img
+                    src="photos1/cover.jpg"
+                    alt="College Ceiling Designs"
+                >
+
+                <div class="gallery-overlay">
+
+                    <h3>College Designs</h3>
+
+                    <button
+                        type="button"
+                        class="view-btn"
+                        onclick="event.stopPropagation(); openCollegeGallery('college1')"
+                    >
+                        View Designs
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ================= COLLEGE 2 ================= -->
+
+            <div class="gallery-item college-card"
+                 onclick="openCollegeGallery('college2')">
+
+                <img
+                    src="photos2/cover.jpg"
+                    alt="College Project Ceiling Designs"
+                >
+
+                <div class="gallery-overlay">
+
+                    <h3>College Project</h3>
+
+                    <button
+                        type="button"
+                        class="view-btn"
+                        onclick="event.stopPropagation(); openCollegeGallery('college2')"
+                    >
+                        View Designs
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ================= NORMAL IMAGE 1 ================= -->
+
+            <div class="gallery-item">
+
+                <img
+                    src="images/gallery1.jpg"
+                    alt="Gypsum Ceiling Design"
+                    onclick="openLightbox(this.src, this.alt)"
+                >
+
+                <div class="gallery-overlay">
+
+                    <h3>Ceiling Design</h3>
+
+                    <button
+                        type="button"
+                        class="view-btn"
+                        onclick="openLightbox(
+                            'images/gallery1.jpg',
+                            'Ceiling Design'
+                        )"
+                    >
+                        View
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ================= NORMAL IMAGE 2 ================= -->
+
+            <div class="gallery-item">
+
+                <img
+                    src="images/gallery2.jpg"
+                    alt="Gypsum Ceiling Design"
+                    onclick="openLightbox(this.src, this.alt)"
+                >
+
+                <div class="gallery-overlay">
+
+                    <h3>Ceiling Design</h3>
+
+                    <button
+                        type="button"
+                        class="view-btn"
+                        onclick="openLightbox(
+                            'images/gallery2.jpg',
+                            'Ceiling Design'
+                        )"
+                    >
+                        View
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ================= NORMAL IMAGE 3 ================= -->
+
+            <div class="gallery-item">
+
+                <img
+                    src="images/gallery3.jpg"
+                    alt="Gypsum Ceiling Design"
+                    onclick="openLightbox(this.src, this.alt)"
+                >
+
+                <div class="gallery-overlay">
+
+                    <h3>Ceiling Design</h3>
+
+                    <button
+                        type="button"
+                        class="view-btn"
+                        onclick="openLightbox(
+                            'images/gallery3.jpg',
+                            'Ceiling Design'
+                        )"
+                    >
+                        View
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ================= NORMAL IMAGE 4 ================= -->
+
+            <div class="gallery-item">
+
+                <img
+                    src="images/gallery4.jpg"
+                    alt="Gypsum Ceiling Design"
+                    onclick="openLightbox(this.src, this.alt)"
+                >
+
+                <div class="gallery-overlay">
+
+                    <h3>Ceiling Design</h3>
+
+                    <button
+                        type="button"
+                        class="view-btn"
+                        onclick="openLightbox(
+                            'images/gallery4.jpg',
+                            'Ceiling Design'
+                        )"
+                    >
+                        View
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ================= NORMAL IMAGE 5 ================= -->
+
+            <div class="gallery-item">
+
+                <img
+                    src="images/gallery5.jpg"
+                    alt="Gypsum Ceiling Design"
+                    onclick="openLightbox(this.src, this.alt)"
+                >
+
+                <div class="gallery-overlay">
+
+                    <h3>Ceiling Design</h3>
+
+                    <button
+                        type="button"
+                        class="view-btn"
+                        onclick="openLightbox(
+                            'images/gallery5.jpg',
+                            'Ceiling Design'
+                        )"
+                    >
+                        View
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ================= NORMAL IMAGE 6 ================= -->
+
+            <div class="gallery-item">
+
+                <img
+                    src="images/gallery6.jpg"
+                    alt="Gypsum Ceiling Design"
+                    onclick="openLightbox(this.src, this.alt)"
+                >
+
+                <div class="gallery-overlay">
+
+                    <h3>Ceiling Design</h3>
+
+                    <button
+                        type="button"
+                        class="view-btn"
+                        onclick="openLightbox(
+                            'images/gallery6.jpg',
+                            'Ceiling Design'
+                        )"
+                    >
+                        View
+                    </button>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= COLLEGE GALLERY POPUP ================= -->
+
+<div class="college-modal" id="collegeModal">
+
+    <div class="college-modal-content">
+
+        <button
+            type="button"
+            class="college-close"
+            onclick="closeCollegeGallery()"
+        >
+            &times;
+        </button>
+
+        <h2 id="collegeTitle">
+            College Designs
+        </h2>
+
+        <div
+            class="college-gallery-grid"
+            id="collegeGalleryGrid">
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- ================= IMAGE LIGHTBOX ================= -->
+
+<div class="lightbox" id="lightbox">
+
+    <button
+        type="button"
+        class="lightbox-close"
+        id="lightboxClose"
+    >
+        &times;
+    </button>
+
+    <img
+        id="lightboxImage"
+        src=""
+        alt=""
+    >
+
+    <h3 id="lightboxTitle"></h3>
+
+</div>
+
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="footer-content">
+
+
+            <!-- FOOTER ABOUT -->
+
+            <div>
+
+                <h3>
+                    ZAIB BROTHERS INTERIORS
+                </h3>
+
+                <p>
+                    Quality gypsum ceiling solutions for
+                    homes, offices and commercial spaces.
+                </p>
+
+            </div>
+
+
+            <!-- QUICK LINKS -->
+
+            <div>
+
+                <h3>
+                    Quick Links
+                </h3>
+
+                <a href="index.html">Home</a>
+
+                <a href="products.html">Products</a>
+
+                <a href="gallery.html">Gallery</a>
+
+                <a href="services.html">Services</a>
+
+                <a href="about.html">About</a>
+
+                <a href="contact.html">Contact</a>
+
+            </div>
+
+        </div>
+
+
+        <!-- FOOTER BOTTOM -->
+
+        <div class="footer-bottom">
+
+            <p>
+                ©
+                <span id="year"></span>
+                Zaib Brothers Interiors.
+                All Rights Reserved.
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+
+<!-- ================= WHATSAPP ================= -->
+
+<a
+    href="https://wa.me/923289062921"
+    target="_blank"
+    class="whatsapp-btn"
+    aria-label="Chat on WhatsApp"
+>
+    💬
+</a>
+
+
+
+<!-- ================= JAVASCRIPT ================= -->
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
